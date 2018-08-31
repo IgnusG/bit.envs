@@ -1,0 +1,15 @@
+{
+    "presets": [
+      ["@babel/env", { "modules": false, "loose": true }],
+      "@babel/flow"
+    ],
+    "sourceMaps": true,
+    "ast": false,
+    "minified": false,
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread",
+      ["@babel/plugin-proposal-decorators", { "legacy": true }],
+      "@babel/plugin-proposal-class-properties",
+      ["inferno", { "imports": true }]
+    ]
+  }

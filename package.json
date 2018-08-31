@@ -1,0 +1,24 @@
+{
+  "name": "bit.ignusg.envs",
+  "version": "1.0.0",
+  "scripts": {
+    "tag": "bit tag --all",
+    "build": "bit build",
+    "export": "bit export ignusg.envs"
+  },
+  "author": "IgnusG",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@bit/bit.utils.object.group-by": "^1.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-inferno": "^5.1.0",
+    "fs-extra": "^7.0.0",
+    "vinyl": "^2.2.0"
+  }
+}
