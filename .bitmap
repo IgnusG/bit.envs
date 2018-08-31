@@ -47,7 +47,7 @@
         "trackDir": "compilers/inferno",
         "origin": "AUTHORED"
     },
-    "ignusg.envs/compilers/inferno-flow@1.0.0": {
+    "ignusg.envs/compilers/inferno-flow@1.0.1": {
         "files": [
             {
                 "relativePath": "compilers/inferno-flow/.babelrc",
